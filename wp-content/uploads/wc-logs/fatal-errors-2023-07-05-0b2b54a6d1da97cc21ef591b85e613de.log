@@ -1,0 +1,12 @@
+2023-07-05T01:49:56+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\wordride\wp-content\plugins\js_composer\include\classes\editors\class-vc-frontend-editor.php on line 673
+
+2023-07-05T01:50:55+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\wordride\wp-content\plugins\js_composer\include\classes\editors\class-vc-frontend-editor.php on line 673
+
+2023-07-05T01:50:57+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\wordride\wp-content\plugins\js_composer\include\classes\editors\class-vc-frontend-editor.php on line 673
+
+2023-07-05T01:51:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordride\wp-includes\class-wp-http-curl.php on line 341
+
+2023-07-05T01:57:42+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\wordride\wp-content\plugins\js_composer\include\classes\editors\class-vc-frontend-editor.php on line 673
+
+2023-07-05T01:59:30+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\wordride\wp-content\plugins\js_composer\include\classes\editors\class-vc-frontend-editor.php on line 673
+

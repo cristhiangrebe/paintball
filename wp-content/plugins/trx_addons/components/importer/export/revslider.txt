@@ -1,0 +1,5 @@
+revslider/classic-carousel.zip
+revslider/slider-carousel.zip
+revslider/classicslider.zip
+revslider/slider-1.zip
+revslider/slider-2.zip

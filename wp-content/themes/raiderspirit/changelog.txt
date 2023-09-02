@@ -1,0 +1,20 @@
+Version 1.0.3
+     Added:
+     - Compatibility with WP 5.3.1
+
+Version 1.0.2
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve WordPress 5.2.2 compatibility
+        - Replace default contact forms with Contact Form 7
+
+Version 1.0.1
+    Added
+        - Use {Y} macross in Layouts post type to output current year
+        - Checkboxes to default contact forms to make forms GDPR-compliant
+        - WP GDPR Compliance plugin
+        - Alert to Demo data installation
+    Fixed
+        - Skins install and update
+
+Release – v.1.0.0

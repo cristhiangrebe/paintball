@@ -1,0 +1,55 @@
+2023-07-10T04:43:56+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\xampp\htdocs\wordride\wp-content\plugins\essential-grid\public\essential-grid.class.php:4399
+Stack trace:
+#0 C:\xampp\htdocs\wordride\wp-content\plugins\essential-grid\public\essential-grid.class.php(4399): implode(Array, '","')
+#1 C:\xampp\htdocs\wordride\wp-content\plugins\essential-grid\admin\views\grid-item-skin.php(146): Essential_Grid->output_grid_javascript(false, true)
+#2 C:\xampp\htdocs\wordride\wp-content\plugins\essential-grid\admin\essential-grid-admin.class.php(933): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordride\wp-content\plugins\essential-grid\admin\essential-grid-admin.class.php(840): Essential_Grid_Admin->display_plugin_submenu('grid-item-skin')
+#4 C:\xampp\htdocs\wordride\wp-includes\class-wp-hook.php(308): Essential_Grid_Admin->display_plugin_submenu_page_item_skin('')
+#5 C:\xampp\htdocs\wordride\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\wordride\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordride\wp-admin\admin.php(259): do_action('ess-grid_page_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordride\wp-content\plugins\essential-grid\public\essential-grid.class.php on line 4399
+
+2023-07-10T05:00:21+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\datetimepicker.php:197
+Stack trace:
+#0 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\datetimepicker.php(169): CF7_DateTimePicker->options_encode()
+#1 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\admin.php(54): CF7_DateTimePicker->generate_code(true)
+#2 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7\admin\includes\editor.php(46): ContactForm7Datepicker_Admin::theme_panel(Object(WPCF7_ContactForm))
+#3 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7\admin\edit-contact-form.php(277): WPCF7_Editor->display()
+#4 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7\admin\admin.php(391): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordride\wp-includes\class-wp-hook.php(308): wpcf7_admin_management_page('')
+#6 C:\xampp\htdocs\wordride\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordride\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordride\wp-admin\admin.php(259): do_action('toplevel_page_w...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\datetimepicker.php on line 197
+
+2023-07-10T05:02:11+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\datetimepicker.php:197
+Stack trace:
+#0 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\datetimepicker.php(169): CF7_DateTimePicker->options_encode()
+#1 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\admin.php(54): CF7_DateTimePicker->generate_code(true)
+#2 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7\admin\includes\editor.php(46): ContactForm7Datepicker_Admin::theme_panel(Object(WPCF7_ContactForm))
+#3 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7\admin\edit-contact-form.php(277): WPCF7_Editor->display()
+#4 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7\admin\admin.php(391): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordride\wp-includes\class-wp-hook.php(308): wpcf7_admin_management_page('')
+#6 C:\xampp\htdocs\wordride\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordride\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordride\wp-admin\admin.php(259): do_action('toplevel_page_w...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\datetimepicker.php on line 197
+
+2023-07-10T05:05:33+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\datetimepicker.php:197
+Stack trace:
+#0 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\datetimepicker.php(169): CF7_DateTimePicker->options_encode()
+#1 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\admin.php(54): CF7_DateTimePicker->generate_code(true)
+#2 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7\admin\includes\editor.php(46): ContactForm7Datepicker_Admin::theme_panel(Object(WPCF7_ContactForm))
+#3 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7\admin\edit-contact-form.php(277): WPCF7_Editor->display()
+#4 C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7\admin\admin.php(391): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordride\wp-includes\class-wp-hook.php(308): wpcf7_admin_management_page('')
+#6 C:\xampp\htdocs\wordride\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordride\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordride\wp-admin\admin.php(259): do_action('toplevel_page_w...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordride\wp-content\plugins\contact-form-7-datepicker\datetimepicker.php on line 197
+
